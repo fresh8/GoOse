@@ -1,6 +1,8 @@
 package goose
 
 import (
+	"fmt"
+
 	resty "github.com/go-resty/resty/v2"
 	"github.com/pkg/errors"
 )
@@ -33,7 +35,7 @@ func (hr htmlrequester) fetchHTML(url string) (string, error) {
 		return "", errors.Wrap(err, "could not perform request on "+url)
 	}
 	if resp.IsError() {
-		return "", &badRequest{Message: "could not perform request with " + url + " status code " + string(resp.StatusCode())}
+		return "", &badRequest{Message: fmt.Sprintf("could not perform request with %s status code %d", url, resp.StatusCode())}
 	}
 	return resp.String(), nil
 }

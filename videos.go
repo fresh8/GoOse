@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/PuerkitoBio/goquery"
 	"github.com/fatih/set"
+	"github.com/fresh8/goquery"
 )
 
 // VideoExtractor can extract the main video from an HTML page

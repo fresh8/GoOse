@@ -3,8 +3,8 @@ package goose
 import (
 	"time"
 
-	"github.com/PuerkitoBio/goquery"
 	"github.com/fatih/set"
+	"github.com/fresh8/goquery"
 )
 
 // Article is a collection of properties extracted from the HTML body
