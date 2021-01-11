@@ -1,12 +1,11 @@
 module github.com/advancedlogic/GoOse
 
-go 1.13
+go 1.15
 
 require (
-	github.com/PuerkitoBio/goquery v1.4.1
-	github.com/andybalholm/cascadia v1.0.0 // indirect
 	github.com/araddon/dateparse v0.0.0-20180729174819-cfd92a431d0e
 	github.com/fatih/set v0.2.1
+	github.com/fresh8/goquery v1.8.0
 	github.com/gigawattio/window v0.0.0-20180317192513-0f5467e35573
 	github.com/go-resty/resty/v2 v2.0.0
 	github.com/jaytaylor/html2text v0.0.0-20180606194806-57d518f124b0
@@ -16,7 +15,7 @@ require (
 	github.com/simplereach/timeutils v1.2.0 // indirect
 	github.com/ssor/bom v0.0.0-20170718123548-6386211fdfcf // indirect
 	github.com/stretchr/testify v1.4.0 // indirect
-	golang.org/x/net v0.0.0-20190628185345-da137c7871d7
-	golang.org/x/text v0.3.0
+	golang.org/x/net v0.0.0-20201224014010-6772e930b67b
+	golang.org/x/text v0.3.3
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
 )
