@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fresh8/goquery"
+	"github.com/PuerkitoBio/goquery"
 	"github.com/pkg/errors"
 )
 

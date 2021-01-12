@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/PuerkitoBio/goquery"
 	"github.com/araddon/dateparse"
 	"github.com/fatih/set"
-	"github.com/fresh8/goquery"
 	"github.com/gigawattio/window"
 	"github.com/jaytaylor/html2text"
 	"golang.org/x/net/html"

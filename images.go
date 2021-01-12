@@ -1,7 +1,7 @@
 package goose
 
 import (
-	"github.com/fresh8/goquery"
+	"github.com/PuerkitoBio/goquery"
 	"net/url"
 	"regexp"
 	"strconv"
