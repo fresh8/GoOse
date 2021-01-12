@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/PuerkitoBio/goquery"
+	"github.com/fresh8/goquery"
 )
 
 // Crawler can fetch the target HTML page

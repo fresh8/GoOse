@@ -3,9 +3,9 @@ module github.com/fresh8/GoOse
 go 1.15
 
 require (
-	github.com/PuerkitoBio/goquery v1.6.1
 	github.com/araddon/dateparse v0.0.0-20201001162425-8aadafed4dc4
 	github.com/fatih/set v0.2.1
+	github.com/fresh8/goquery v1.8.0
 	github.com/gigawattio/window v0.0.0-20180317192513-0f5467e35573
 	github.com/go-resty/resty/v2 v2.3.0
 	github.com/jaytaylor/html2text v0.0.0-20200412013138-3577fbdbcff7

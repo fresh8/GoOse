@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/PuerkitoBio/goquery"
+	"github.com/fresh8/goquery"
 	"golang.org/x/net/html"
 )
 
@@ -91,7 +91,7 @@ func (formatter *outputFormatter) linksToText() []string {
 // Text gets the combined text contents of each element in the set of matched
 // elements, including their descendants.
 //
-// @see https://github.com/PuerkitoBio/goquery/blob/master/property.go
+// @see https://github.com/fresh8/goquery/blob/master/property.go
 func (formatter *outputFormatter) Text(s *goquery.Selection) string {
 	var buf bytes.Buffer
 

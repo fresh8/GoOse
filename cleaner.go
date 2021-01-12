@@ -2,7 +2,7 @@ package goose
 
 import (
 	"container/list"
-	"github.com/PuerkitoBio/goquery"
+	"github.com/fresh8/goquery"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
 	"log"
